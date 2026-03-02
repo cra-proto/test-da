@@ -1,0 +1,30 @@
+---
+testBanner: false
+title: "test-da repository sitemap [GCWeb Jekyll pages]"
+dateModified: 2026-03-02
+dateIssued: 2026-03-02
+nositesearch: true
+nomenu: true
+breadcrumbs: false
+feedback: false
+share: false
+noFooterContextual: true
+noFooterCorporate: true
+noFooterMain: true
+---
+
+<div class="mrgn-tp-md brdr-bttm">
+    <div class="row">
+        <ul class="toc lst-spcd col-md-12">
+            <li class="col-md-4 col-sm-6"><a class="list-group-item active" data-exit="false" href="https://github.com/cra-proto/test-da/tree/main">GitHub repository</a></li>
+        </ul>
+    </div>
+</div>
+<ul>
+{% assign sitePages = site.pages | sort: "url" %}
+{% for p in sitePages %}
+    {% include sitemaplink.html url = p.url title = p.title %}
+    {% assign page_url = p.url | slice: 1, p.url.size %}
+    {% assign folder_path = page_url | split: "/" %}
+{% endfor %}
+</ul>
