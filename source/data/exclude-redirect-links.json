@@ -1,13 +1,5 @@
 [
   {
-    "origin": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2023/get-ready-cra-summertime-benefit-period.html",
-    "destination": "/test-da/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2023/get-ready-cra-summertime-benefit-period.html"
-  },
-  {
-    "origin": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/reminder-apply-by-june-30-for-period-two-of-the-interim-canada-dental-benefi.html",
-    "destination": "/test-da/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/reminder-apply-by-june-30-for-period-two-of-the-interim-canada-dental-benefi.html"
-  },
-  {
     "origin": "https://www.canada.ca/en/revenue-agency/news/cra-multimedia-library/individuals-video-gallery/transcript-change-pay-your-taxes-online.html",
     "destination": "/test-da/en/revenue-agency/news/cra-multimedia-library/individuals-video-gallery/transcript-change-pay-your-taxes-online.html"
   },
