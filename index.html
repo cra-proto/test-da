@@ -23,6 +23,6 @@ noFooterMain: true
 <ul>
 {% assign sitePages = site.pages | sort: "url" %}
 {% for p in sitePages %}
-    <li><a href="{{ p.url }}">{{ p.title | default: p.url }}</a></li>
+    <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title | default: p.url }}</a></li>
 {% endfor %}
 </ul>
