@@ -32,6 +32,18 @@
     "destination": "/test-da/en/revenue-agency/services/child-family-benefits/dental-benefit/validation.html"
   },
   {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit/return-paymelalalalalalant/",
+    "destination": "/test-da/en/revenue-agency/services/child-family-benefits/dental-benefit/return-paymelalalalalalant/"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit/return-paymelalalalalalant/my-page.html",
+    "destination": "/test-da/en/revenue-agency/services/child-family-benefits/dental-benefit/return-paymelalalalalalant/my-page.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit/application-denied/sd.html",
+    "destination": "/test-da/en/revenue-agency/services/child-family-benefits/dental-benefit/application-denied/sd.html"
+  },
+  {
     "origin": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/dental-benefit/who-apply.html",
     "destination": "/test-da/en/revenue-agency/services/child-family-benefits/dental-benefit/who-apply.html"
   },
