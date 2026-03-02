@@ -23,7 +23,6 @@ noFooterMain: true
 <ul>
 {% assign sitePages = site.pages | sort: "url" %}
 {% for p in sitePages %}
-    {% assign page_url = p.url | slice: 1, p.url.size %}
-    {% assign folder_path = page_url | split: "/" %}
+    <li><a href="{{ p.url }}">{{ p.title | default: p.url }}</a></li>
 {% endfor %}
 </ul>
