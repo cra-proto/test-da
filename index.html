@@ -23,7 +23,6 @@ noFooterMain: true
 <ul>
 {% assign sitePages = site.pages | sort: "url" %}
 {% for p in sitePages %}
-    {% include sitemaplink.html url = p.url title = p.title %}
     {% assign page_url = p.url | slice: 1, p.url.size %}
     {% assign folder_path = page_url | split: "/" %}
 {% endfor %}
